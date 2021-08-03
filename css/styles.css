@@ -65,7 +65,6 @@ section {
   padding-top: 0px;
 }
 .header-color {
-  color: #ffffff;
   border-bottom: 1px solid #ececec;
   height: 80px;
 }
@@ -74,7 +73,7 @@ section {
   display: flex;
 }
 
-.img-work:not(:last-child) {
+.works-item:not(:last-child) {
   margin-right: 30px;
 }
 .section-team {
@@ -132,26 +131,10 @@ section {
   margin-right: 8px;
 }
 
-.filter-item {
-  color: var(--color-black--);
-  padding-top: 6px;
-  padding-left: 22px;
-  padding-bottom: 6px;
-  padding-right: 22px;
-  width: auto;
-  height: auto;
-  margin-left: 0;
-  margin-right: 0;
-  display: flex;
-  align-items: center;
-}
-
 .filter-item:hover {
   color: var(--color-hover--);
 }
-.main-color {
-  background: #ffffff;
-}
+
 .our-command-bg {
   background: #f5f4fa;
 }
@@ -193,15 +176,10 @@ section {
   margin-bottom: 0;
 }
 .hero {
-  justify-content: center;
-  align-items: center;
   text-align: center;
   background: #2f303a;
-  display: flex;
-  flex-direction: column;
   padding-top: 200px;
-  padding-bottom: 280px;
-
+  padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -236,6 +214,7 @@ section {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--color-black--);
+  margin-bottom: 4px;
 }
 
 .our-team-text {
@@ -299,7 +278,8 @@ section {
 }
 .filter-text:focus,
 .filter-text:hover {
-  background: var(--color-hover--);
+  background: #2196f3;
+  color: #ffffff;
 }
 .logo {
   text-decoration: none;
@@ -340,20 +320,19 @@ section {
   padding-top: 24px;
   padding-bottom: 25px;
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
 }
 .navigation .item:not(:last-child) {
   margin-right: 50px;
 }
-.flex-container {
-  display: flex;
-  align-items: center;
-}
+
 .flex-filters {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
+}
+.flex-element-item {
+  padding: 24px 20px;
 }
 .flex-element {
   flex-basis: calc((100% - 60px) / 3);
@@ -367,16 +346,10 @@ section {
   font-size: 18px;
   line-height: 2;
 
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 20px;
   margin-bottom: 4px;
   justify-content: center;
 }
 .flex-element p {
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 20px;
   justify-content: center;
 
   font-size: 16px;
@@ -395,9 +368,6 @@ section {
   justify-content: center;
   margin-left: 0px;
   margin-right: 0px;
-}
-.filter-item {
-  list-style-type: none;
 }
 
 .contacts {
@@ -433,7 +403,6 @@ section {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 .info-text {
   font-weight: normal;
@@ -459,10 +428,4 @@ footer {
 }
 .address li:not(:last-child) {
   margin-bottom: 9px;
-}
-.address li {
-  margin-top: 20px;
-}
-.address li {
-  margin-top: 20px;
 }
